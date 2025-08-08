@@ -44,12 +44,6 @@
   - Windows: `%APPDATA%\eza\theme.yml`
 3. Run eza and enjoy new look
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
-
-- Q: **_"How can I do X?"_**\
-  A: ...
-
 ## 💝 Thanks to
 
 - [Andrey (ankddev)](https://github.com/ankddev)
