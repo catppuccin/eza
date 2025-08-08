@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Copy content of one of files in [themes](./themes) directory (e.g. [themes/mocha/catppuccin-mocha-mauve.yml](./themes/mocha/catppuccin-mocha-mauve.yml))
+1. Copy content of theme with your favourite flavor and accent in [themes](./themes) directory (e.g. [themes/mocha/catppuccin-mocha-mauve.yml](./themes/mocha/catppuccin-mocha-mauve.yml) for Mocha with Mauve accent)
 2. Paste it to your theme config.
   It is located in directory with respect of your XDG variables. Default values are:
   - Linux: `~/.config/eza/theme.yml`
