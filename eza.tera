@@ -1,0 +1,114 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.yml"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+{%- set accent = flavor.colors[accent] -%}
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "{{text.hex}}"}
+  directory: {foreground: "{{accent.hex}}"}
+  symlink: {foreground: "{{blue.hex}}"}
+  pipe: {foreground: "{{subtext1.hex}}"}
+  block_device: {foreground: "{{maroon.hex}}"}
+  char_device: {foreground: "{{maroon.hex}}"}
+  socket: {foreground: "{{subtext1.hex}}"}
+  special: {foreground: "{{mauve.hex}}"}
+  executable: {foreground: "{{green.hex}}"}
+  mount_point: {foreground: "{{teal.hex}}"}
+
+perms:
+  user_read: {foreground: "{{subtext1.hex}}"}
+  user_write: {foreground: "{{yellow.hex}}"}
+  user_execute_file: {foreground: "{{green.hex}}"}
+  user_execute_other: {foreground: "{{green.hex}}"}
+  group_read: {foreground: "{{subtext1.hex}}"}
+  group_write: {foreground: "{{yellow.hex}}"}
+  group_execute: {foreground: "{{green.hex}}"}
+  other_read: {foreground: "{{subtext1.hex}}"}
+  other_write: {foreground: "{{yellow.hex}}"}
+  other_execute: {foreground: "{{green.hex}}"}
+  special_user_file: {foreground: "{{mauve.hex}}"}
+  special_other: {foreground: "{{overlay1.hex}}"}
+  attribute: {foreground: "{{overlay2.hex}}"}
+
+size:
+  major: {foreground: "{{subtext0.hex}}"}
+  minor: {foreground: "{{sky.hex}}"}
+  number_byte: {foreground: "{{subtext1.hex}}"}
+  number_kilo: {foreground: "{{subtext0.hex}}"}
+  number_mega: {foreground: "{{blue.hex}}"}
+  number_giga: {foreground: "{{mauve.hex}}"}
+  number_huge: {foreground: "{{mauve.hex}}"}
+  unit_byte: {foreground: "{{subtext0.hex}}"}
+  unit_kilo: {foreground: "{{sky.hex}}"}
+  unit_mega: {foreground: "{{mauve.hex}}"}
+  unit_giga: {foreground: "{{mauve.hex}}"}
+  unit_huge: {foreground: "{{teal.hex}}"}
+
+users:
+  user_you: {foreground: "{{text.hex}}"}
+  user_root: {foreground: "{{red.hex}}"}
+  user_other: {foreground: "{{maroon.hex}}"}
+  group_yours: {foreground: "{{subtext0.hex}}"}
+  group_other: {foreground: "{{overlay2.hex}}"}
+  group_root: {foreground: "{{red.hex}}"}
+
+links:
+  normal: {foreground: "{{blue.hex}}"}
+  multi_link_file: {foreground: "{{blue.hex}}"}
+
+git:
+  new: {foreground: "{{green.hex}}"}
+  modified: {foreground: "{{yellow.hex}}"}
+  deleted: {foreground: "{{maroon.hex}}"}
+  renamed: {foreground: "{{teal.hex}}"}
+  typechange: {foreground: "{{pink.hex}}"}
+  ignored: {foreground: "{{overlay1.hex}}"}
+  conflicted: {foreground: "{{peach.hex}}"}
+
+git_repo:
+  branch_main: {foreground: "{{subtext0.hex}}"}
+  branch_other: {foreground: "{{mauve.hex}}"}
+  git_clean: {foreground: "{{green.hex}}"}
+  git_dirty: {foreground: "{{maroon.hex}}"}
+
+security_context:
+  colon: {foreground: "{{overlay0.hex}}"}
+  user: {foreground: "{{overlay1.hex}}"}
+  role: {foreground: "{{mauve.hex}}"}
+  typ: {foreground: "{{surface2.hex}}"}
+  range: {foreground: "{{mauve.hex}}"}
+
+file_type:
+  image: {foreground: "{{yellow.hex}}"}
+  video: {foreground: "{{red.hex}}"}
+  music: {foreground: "{{green.hex}}"}
+  lossless: {foreground: "{{teal.hex}}"}
+  crypto: {foreground: "{{overlay1.hex}}"}
+  document: {foreground: "{{text.hex}}"}
+  compressed: {foreground: "{{pink.hex}}"}
+  temp: {foreground: "{{maroon.hex}}"}
+  compiled: {foreground: "{{sapphire.hex}}"}
+  build: {foreground: "{{surface2.hex}}"}
+  source: {foreground: "{{blue.hex}}"}
+
+punctuation: {foreground: "{{overlay0.hex}}"}
+date: {foreground: "{{yellow.hex}}"}
+inode: {foreground: "{{subtext0.hex}}"}
+blocks: {foreground: "{{overlay0.hex}}"}
+header: {foreground: "{{text.hex}}"}
+octal: {foreground: "{{teal.hex}}"}
+flags: {foreground: "{{mauve.hex}}"}
+
+symlink_path: {foreground: "{{sky.hex}}"}
+control_char: {foreground: "{{sapphire.hex}}"}
+broken_symlink: {foreground: "{{red.hex}}"}
+broken_path_overlay: {foreground: "{{surface2.hex}}"}
+
