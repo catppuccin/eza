@@ -44,6 +44,19 @@
   - Windows: `%APPDATA%\eza\theme.yml`
 3. Run eza and enjoy new look
 
+## Building
+
+This port uses [whiskers](https://github.com/catppuccin/whiskers) to generate themes. So, you need to edit [`eza.tera` template](./eza.tera) and then run
+
+```sh
+whiskers eza.tera
+```
+to generate themes in `themes` directory. We also provide justfile, so you can run this instead
+
+```sh
+just build
+```
+
 ## 💝 Thanks to
 
 - [Andrey (ankddev)](https://github.com/ankddev)
