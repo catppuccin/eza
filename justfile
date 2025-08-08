@@ -2,5 +2,5 @@ _default:
   @just list
 
 build:
-  whiskers nvim.tera
+  whiskers eza.tera
 
