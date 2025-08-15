@@ -13,14 +13,14 @@ filekinds:
   mount_point: {foreground: "#179299"}
 
 perms:
-  user_read: {foreground: "#5c5f77"}
+  user_read: {foreground: "#d20f39"}
   user_write: {foreground: "#df8e1d"}
   user_execute_file: {foreground: "#40a02b"}
   user_execute_other: {foreground: "#40a02b"}
-  group_read: {foreground: "#5c5f77"}
+  group_read: {foreground: "#d20f39"}
   group_write: {foreground: "#df8e1d"}
   group_execute: {foreground: "#40a02b"}
-  other_read: {foreground: "#5c5f77"}
+  other_read: {foreground: "#d20f39"}
   other_write: {foreground: "#df8e1d"}
   other_execute: {foreground: "#40a02b"}
   special_user_file: {foreground: "#8839ef"}

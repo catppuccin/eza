@@ -24,14 +24,14 @@ filekinds:
   mount_point: {foreground: "{{teal.hex}}"}
 
 perms:
-  user_read: {foreground: "{{subtext1.hex}}"}
+  user_read: {foreground: "{{red.hex}}"}
   user_write: {foreground: "{{yellow.hex}}"}
   user_execute_file: {foreground: "{{green.hex}}"}
   user_execute_other: {foreground: "{{green.hex}}"}
-  group_read: {foreground: "{{subtext1.hex}}"}
+  group_read: {foreground: "{{red.hex}}"}
   group_write: {foreground: "{{yellow.hex}}"}
   group_execute: {foreground: "{{green.hex}}"}
-  other_read: {foreground: "{{subtext1.hex}}"}
+  other_read: {foreground: "{{red.hex}}"}
   other_write: {foreground: "{{yellow.hex}}"}
   other_execute: {foreground: "{{green.hex}}"}
   special_user_file: {foreground: "{{mauve.hex}}"}
