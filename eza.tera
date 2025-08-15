@@ -96,7 +96,6 @@ file_type:
   compressed: {foreground: "{{pink.hex}}"}
   temp: {foreground: "{{maroon.hex}}"}
   compiled: {foreground: "{{sapphire.hex}}"}
-  build: {foreground: "{{surface2.hex}}"}
   source: {foreground: "{{blue.hex}}"}
 
 punctuation: {foreground: "{{overlay0.hex}}"}

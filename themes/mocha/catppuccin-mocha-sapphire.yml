@@ -85,7 +85,6 @@ file_type:
   compressed: {foreground: "#f5c2e7"}
   temp: {foreground: "#eba0ac"}
   compiled: {foreground: "#74c7ec"}
-  build: {foreground: "#585b70"}
   source: {foreground: "#89b4fa"}
 
 punctuation: {foreground: "#6c7086"}
