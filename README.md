@@ -57,6 +57,17 @@ to generate themes in `themes` directory. We also provide justfile, so you can r
 just build
 ```
 
+## Generating previews
+
+This port uses [catwalk](https://github.com/catppuccin/catwalk) to generate previews. To generate preview, you need to update `[flavor].webp` in [`assets` directory](./assets/) and tyen run following command:
+```sh
+catwalk -C assets
+```
+to generate [`assets/preview.webp`](./assets/preview.webp). We also provide justfile, so you can run following instead
+```sh
+just preview
+```
+
 ## 💝 Thanks to
 
 - [Andrey (ankddev)](https://github.com/ankddev)

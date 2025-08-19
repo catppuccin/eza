@@ -4,3 +4,6 @@ _default:
 build:
   whiskers eza.tera
 
+preview:
+  catwalk -C assets
+
