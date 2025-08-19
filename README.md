@@ -37,7 +37,7 @@
 ## Usage
 
 1. Copy content of theme with your favourite flavor and accent in [themes](./themes) directory (e.g. [themes/mocha/catppuccin-mocha-mauve.yml](./themes/mocha/catppuccin-mocha-mauve.yml) for Mocha with Mauve accent)
-2. Paste it to your theme config. Read in [docs](https://github.com/eza-community/eza/blob/main/man/eza.1.md#eza_config_dir) where it is located
+2. Paste it to your theme config. Read in [man](https://github.com/eza-community/eza/blob/main/man/eza.1.md#eza_config_dir) where it is located
 3. Run eza and enjoy new look
 
 ## Building
