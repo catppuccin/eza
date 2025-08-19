@@ -47,11 +47,7 @@ This port uses [whiskers](https://github.com/catppuccin/whiskers) to generate th
 ```sh
 whiskers eza.tera
 ```
-to generate themes in `themes` directory. We also provide justfile, so you can run this instead
-
-```sh
-just build
-```
+to generate themes in `themes` directory.
 
 ## Generating previews
 
@@ -59,10 +55,7 @@ This port uses [catwalk](https://github.com/catppuccin/catwalk) to generate prev
 ```sh
 catwalk -C assets
 ```
-to generate [`assets/preview.webp`](./assets/preview.webp). We also provide justfile, so you can run following instead
-```sh
-just preview
-```
+to generate [`assets/preview.webp`](./assets/preview.webp).
 
 ## 💝 Thanks to
 
