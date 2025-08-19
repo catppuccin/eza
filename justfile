@@ -1,5 +1,5 @@
 _default:
-  @just --list
+  @just --list --justfile {{justfile()}}
 
 build:
   whiskers eza.tera
