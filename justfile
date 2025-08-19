@@ -1,5 +1,5 @@
 _default:
-  @just list
+  @just --list
 
 build:
   whiskers eza.tera
