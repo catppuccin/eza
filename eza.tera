@@ -25,9 +25,9 @@ filekinds:
 
 perms:
   user_read: {foreground: "{{red.hex}}", is_bold: true}
-  user_write: {foreground: "{{yellow.hex}}"}, is_bold: true}
-  user_execute_file: {foreground: "{{green.hex}}"}, is_bold: true}
-  user_execute_other: {foreground: "{{green.hex}}"}, is_bold: true}
+  user_write: {foreground: "{{yellow.hex}}", is_bold: true}
+  user_execute_file: {foreground: "{{green.hex}}", is_bold: true}
+  user_execute_other: {foreground: "{{green.hex}}", is_bold: true}
   group_read: {foreground: "{{red.hex}}"}
   group_write: {foreground: "{{yellow.hex}}"}
   group_execute: {foreground: "{{green.hex}}"}

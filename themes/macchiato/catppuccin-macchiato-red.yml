@@ -14,9 +14,9 @@ filekinds:
 
 perms:
   user_read: {foreground: "#ed8796", is_bold: true}
-  user_write: {foreground: "#eed49f"}, is_bold: true}
-  user_execute_file: {foreground: "#a6da95"}, is_bold: true}
-  user_execute_other: {foreground: "#a6da95"}, is_bold: true}
+  user_write: {foreground: "#eed49f", is_bold: true}
+  user_execute_file: {foreground: "#a6da95", is_bold: true}
+  user_execute_other: {foreground: "#a6da95", is_bold: true}
   group_read: {foreground: "#ed8796"}
   group_write: {foreground: "#eed49f"}
   group_execute: {foreground: "#a6da95"}
